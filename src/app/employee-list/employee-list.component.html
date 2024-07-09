@@ -1,0 +1,39 @@
+<div>
+    <h2 style="text-align: center;">Employee List</h2>
+<table>
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Phone No.</th>
+      <th>Address</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users; let i = index">
+      <td>
+        <input type="text" [(ngModel)]="user.firstname" [readonly]="!newUser[i]">
+      </td>
+      <td>
+        <input type="text" [(ngModel)]="user.lastname" [readonly]="!newUser[i]">
+      </td>
+      <td>
+        <input type="text" [(ngModel)]="user.phoneno" [readonly]="!newUser[i]">
+      </td>
+      <td>
+        <input type="text" [(ngModel)]="user.address" [readonly]="!newUser[i]">
+      </td>
+      <td>
+        <input type="email" [(ngModel)]="user.email" [readonly]="!newUser[i]">
+      </td>
+      <td>
+        <button *ngIf="!newUser[i]" (click)="toggleEdit(i)" style="background-color: rgb(238, 186, 89)">Edit</button>&nbsp;
+        <button *ngIf="newUser[i]" (click)="saveUser(i)" style="background-color: rgb(108, 238, 108)">Save</button>&nbsp;
+        <button (click)="deleteUser(user)" style="background-color: rgb(233, 102, 102);">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
