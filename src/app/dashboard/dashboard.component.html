@@ -4,7 +4,7 @@
     <div>
       <label>First Name:</label>
       <input
-      placeholder="Enter First Name"
+        placeholder="Enter First Name"
         type="text"
         name="firstname"
         [(ngModel)]="newUser.firstname"
@@ -14,7 +14,7 @@
     <div>
       <label>Last Name:</label>
       <input
-      placeholder="Enter Last Name"
+        placeholder="Enter Last Name"
         type="text"
         name="lastname"
         [(ngModel)]="newUser.lastname"
@@ -24,7 +24,7 @@
     <div>
       <label>Phone no:</label>
       <input
-      placeholder="Enter Phone Number"
+        placeholder="Enter Phone Number"
         type="number"
         name="phoneno"
         [(ngModel)]="newUser.phoneno"
@@ -37,7 +37,7 @@
     <div>
       <label>Address:</label>
       <input
-      placeholder="Enter Address"
+        placeholder="Enter Address"
         type="text"
         name="address"
         [(ngModel)]="newUser.address"
@@ -46,8 +46,14 @@
     </div>
     <div>
       <label>Email:</label>
-      <input placeholder="Enter Email" type="email" name="email" [(ngModel)]="newUser.email" required />
+      <input
+        placeholder="Enter Email"
+        type="email"
+        name="email"
+        [(ngModel)]="newUser.email"
+        required
+      />
     </div>
-    <button type="submit">Add User</button>
+    <button type="submit" [disabled]="!userForm.form.valid">Add User</button>
   </form>
 </div>

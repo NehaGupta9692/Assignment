@@ -21,7 +21,6 @@ export class EmployeeListComponent {
     address: '',
     email: '',
   };
-  editing = false;
   constructor(private http: HttpClient, private route: Router) {}
   ngOnInit(): void {
     this.fetchUsers();
