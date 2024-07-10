@@ -32,12 +32,6 @@ export class EmployeeListComponent {
       this.newUser = this.users.map(() => false);
     });
   }
-  // editUser(user: any) {
-  //   const url = `${this.apiUrl}/${user.id}`;
-  //   this.http.put<any>(url, user).subscribe(() => {
-  //     this.fetchUsers();
-  //   });
-  // }
 
   toggleEdit(index: number) {
     this.newUser[index] = true;
