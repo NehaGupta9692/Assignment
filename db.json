@@ -49,6 +49,11 @@
       "id": "b804",
       "username": "neha@gmail.com",
       "password": "neha123"
+    },
+    {
+      "id": "8b87",
+      "username": "neha@gmail.com",
+      "password": "neha123"
     }
   ],
   "items": [
@@ -75,14 +80,6 @@
       "phoneno": 8487746455,
       "address": "Kanpur",
       "email": "anilkumar@gmail.com"
-    },
-    {
-      "id": "3f86",
-      "firstname": "",
-      "lastname": "",
-      "phoneno": "",
-      "address": "",
-      "email": ""
     }
   ]
 }

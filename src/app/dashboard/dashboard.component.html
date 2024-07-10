@@ -11,7 +11,14 @@
     </div>
     <div>
       <label>Phone no:</label>
-      <input type="number" name="phoneno" [(ngModel)]="newUser.phoneno" />
+      <input
+        type="text"
+        name="phoneno"
+        [(ngModel)]="newUser.phoneno"
+        onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"
+        maxlength="10"
+        minlength="1"
+      />
     </div>
     <div>
       <label>Address:</label>
