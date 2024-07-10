@@ -4,66 +4,6 @@
       "id": "aa12",
       "username": "neha@gmail.com",
       "password": "neha123"
-    },
-    {
-      "id": "3442",
-      "username": "nehu@gmail.com",
-      "password": "neha123"
-    },
-    {
-      "id": "4a49",
-      "username": "neha@gmail.com",
-      "password": "neha123"
-    },
-    {
-      "id": "f90c",
-      "username": "neha@gmail.com",
-      "password": "neha123"
-    },
-    {
-      "id": "2174",
-      "username": "nehu@gmail.com",
-      "password": "neha123"
-    },
-    {
-      "id": "9144",
-      "username": "neha@gmail.com",
-      "password": "neha123"
-    },
-    {
-      "id": "331a",
-      "username": "neha@gmail.com",
-      "password": "neha123"
-    },
-    {
-      "id": "ba2e",
-      "username": "neha@gmail.com",
-      "password": "neha123"
-    },
-    {
-      "id": "6f7d",
-      "username": "anilkumar@gmail.com",
-      "password": "anil@123"
-    },
-    {
-      "id": "b804",
-      "username": "neha@gmail.com",
-      "password": "neha123"
-    },
-    {
-      "id": "8b87",
-      "username": "neha@gmail.com",
-      "password": "neha123"
-    },
-    {
-      "id": "1fdc",
-      "username": "neha@gmail.com",
-      "password": "neha123"
-    },
-    {
-      "id": "c67f",
-      "username": "neha@gmail.com",
-      "password": "neha123"
     }
   ],
   "items": [
@@ -90,14 +30,6 @@
       "phoneno": 8487746455,
       "address": "Kanpur",
       "email": "anilkumar@gmail.com"
-    },
-    {
-      "id": "25ec",
-      "firstname": "Neha",
-      "lastname": "Kumari",
-      "phoneno": 1423563537,
-      "address": "Noida",
-      "email": "nikku@gmail.com"
     }
   ]
 }
